@@ -8,7 +8,7 @@ In US adults, is higher BMI associated with higher systolic blood pressure, and 
 
 ## Data & Methods
 
-I used the 2017–2018 NHANES cycle (the "J" cycle), publicly available CDC survey data. I merged three tables — demographics, body measures, and blood pressure — on the respondent identifier (SEQN), then averaged up to four systolic readings per person into a single value. After restricting to adults (age ≥ 18) and dropping rows missing key variables, the analytic sample was n ≈ 5,179. Analysis was done in R using the tidyverse. I fit two ordinary least-squares regressions: a simple model (`systolic ~ BMI`) and an adjusted model (`systolic ~ BMI + age + sex`).
+I used the 2017–2018 NHANES cycle (the "J" cycle), publicly available CDC survey data. I merged three tables: demographics, body measures, and blood pressure on the respondent identifier (SEQN), then averaged up to four systolic readings per person into a single value. After restricting to adults (age ≥ 18) and dropping rows missing key variables, the analytic sample was n ≈ 5,179. Analysis was done in R using the tidyverse. I fit two ordinary least-squares regressions: a simple model (`systolic ~ BMI`) and an adjusted model (`systolic ~ BMI + age + sex`).
 
 ## Results
 
