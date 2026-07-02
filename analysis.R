@@ -66,8 +66,7 @@ fig1 <- ggplot(analysis, aes(x = bmi, y = sys)) +
     subtitle = "NHANES 2017-2018",
     x = "Body Mass Index (kg/m^2)",
     y = "Systolic Blood Pressure (mmHg)"
-  ) +
-  theme_minimal()
+  )
 
 ggsave("figures/bmi_vs_systolic.png", fig1,
        width = 7, height = 5, dpi = 300)
@@ -82,8 +81,7 @@ fig2 <- ggplot(analysis, aes(x = bmi, y = sys)) +
     x = "Body Mass Index (kg/m^2)",
     y = "Systolic Blood Pressure (mmHg)",
     color = "Age (years)"
-  ) +
-  theme_minimal()
+  )
 
 ggsave("figures/bmi_vs_systolic_by_age.png", fig2,
        width = 7, height = 5, dpi = 300)
