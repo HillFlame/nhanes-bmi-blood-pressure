@@ -1,10 +1,10 @@
 # BMI and Systolic Blood Pressure in US Adults (NHANES 2017–2018)
 
-A self-directed data-analysis project examining whether higher BMI is associated with higher systolic blood pressure, and whether any such association holds after accounting for age and sex.
+A self-directed data-analysis project examining whether higher BMI is associated with higher systolic blood pressure, and if association holds accounting for age and sex.
 
 ## Question
 
-In US adults, is higher BMI associated with higher systolic blood pressure, and does that association persist after adjusting for age and sex?
+In US adults, is higher BMI associated with higher systolic blood pressure, and persisting after adjusting for age and sex?
 
 ## Data & Methods
 
@@ -22,7 +22,7 @@ Coloring the same points by age makes the confounding visible: higher-BMI indivi
 
 ## Interpretation
 
-BMI is statistically but weakly associated with systolic blood pressure, and the association is largely unchanged after adjustment — suggesting it reflects more than a simple stand-in for age or sex. Even so, BMI explains little variation by itself; age is by far the dominant predictor in this sample.
+BMI is statistically but weakly associated with systolic blood pressure, and the association is largely unchanged after adjustment, suggesting it reflects more than a simple stand-in for age or sex. Even so, BMI explains little variation by itself; age is by far the dominant predictor in this sample.
 
 ## Limitations
 
